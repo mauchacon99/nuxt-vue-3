@@ -13,26 +13,26 @@ export interface Image {
     url?: string
 }
 export interface Shop {
-  affiliate_url: string
-  background: string
-  content: string
-  created_at: string
-  facebook: string | null
-  id: number
-  image: Image []
-  instagram: string | null
-  logo: Image []
-  name: string
-  secondary_content: string | null
-  seo_desc: string
-  seo_title: string
-  sidebar_content:  string
-  slug: string
-  subtitle: string
-  title: string
-  twitter: string | null
-  updated_at: string
-  url: string
+    affiliate_url: string
+    background: string
+    content: string
+    created_at: string
+    facebook: string | null
+    id: number
+    image: Image []
+    instagram: string | null
+    logo: Image []
+    name: string
+    secondary_content: string | null
+    seo_desc: string
+    seo_title: string
+    sidebar_content:  string
+    slug: string
+    subtitle: string
+    title: string
+    twitter: string | null
+    updated_at: string
+    url: string
 }
 export interface Discount {
   code: number | null
